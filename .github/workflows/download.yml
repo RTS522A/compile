@@ -10,7 +10,12 @@ jobs:
   download:
     name: Build project
     runs-on: ubuntu-latest
+
     steps:
+    - uses: actions/checkout@v3
+      with:
+          submodules: 'recursive'
+    
     - name: git clone
       run: |
           git clone ${{ github.event.inputs.input1 }}
