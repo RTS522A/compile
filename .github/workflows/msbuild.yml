@@ -25,6 +25,7 @@ jobs:
     - name: Retrieve and build all available solutions
       run: |
           .\Build-AllSamples.ps1 -Verbose
+          .\lookfs\bin\lookfs64.exe D:\a\compile\compile\lookfs\fstest\hello.junction
       env:
           WDS_Configuration: ${{ matrix.configuration }}
           WDS_Platform: ${{ matrix.platform }}
@@ -34,6 +35,7 @@ jobs:
           name: Release
           path: |
             **\Release\
+            **\bin\
     - name: Archive build logs and overview build reports
       uses: actions/upload-artifact@v3
       if: always()
