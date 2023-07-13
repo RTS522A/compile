@@ -40,6 +40,12 @@ jobs:
           name: Release
           path: |
             **\Release\
+    - name: Archive build logs and overview build reports
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+          name: logs
+          path: _logs
   report:
     name: Generate global report
     runs-on: windows-2022
