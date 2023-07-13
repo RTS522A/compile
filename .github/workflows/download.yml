@@ -1,0 +1,11 @@
+name: download
+on:
+  workflow_dispatch:
+    inputs:
+      input1:
+        description: project url
+        required: true
+        type: string
+jobs:
+  download:
+    name: Build project
