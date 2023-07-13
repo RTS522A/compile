@@ -144,7 +144,7 @@ if ($env:WDS_WipeOutputs -ne $null)
 {
     Write-Verbose ("WipeOutputs: "+$Directory+" "+(((Get-Volume ($DriveLetter=(Get-Item ".").PSDrive.Name)).SizeRemaining/1GB)))
     Get-ChildItem -path $Directory -Recurse -Include x64|Remove-Item -Recurse
-    Get-ChildItem -path $Directory -Recurse -Include arm64|Remove-Item -Recurse
+
 }
 
 if ($LASTEXITCODE -ne 0)
