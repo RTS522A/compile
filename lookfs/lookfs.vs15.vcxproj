@@ -129,7 +129,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;_DEBUG;WINVER=0x0501;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;_DEBUG;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <SmallerTypeCheck>true</SmallerTypeCheck>
@@ -142,7 +142,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;_DEBUG;WINVER=0x0501;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;_DEBUG;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -176,7 +176,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;NDEBUG;WINVER=0x0501;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;NDEBUG;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -200,7 +200,7 @@
     <ClCompile>
       <AdditionalOptions>/EHsc /utf-8 /Oi /Os /Gy %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Full</Optimization>
-      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;NDEBUG;WINVER=0x0501;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;NDEBUG;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -212,7 +212,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;NDEBUG;WINVER=0x0501;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RP_QUERY_FILE_ID;_CONSOLE;WIN32;_WINDOWS;STRICT;NDEBUG;_ALLOW_RTCc_IN_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
     <Link>
       <SubSystem>Console</SubSystem>
