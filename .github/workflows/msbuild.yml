@@ -1,11 +1,7 @@
 name: msbuild
 on:
   workflow_dispatch:
-    inputs:
-      input1:
-        description: project url
-        required: true
-        type: string
+
 jobs:
   build:
     name: Build project
@@ -25,15 +21,6 @@ jobs:
       uses: microsoft/setup-msbuild@v1.3.1
       with:
         msbuild-architecture: x64
-    - name: git clone
-      run: |
-          git remote add ${{ github.event.inputs.input1 }}
-          git add .
- 
-    - name: Commit & Push changes
-      uses: actions-js/push@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Retrieve and build all available solutions
       run: |
