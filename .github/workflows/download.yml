@@ -9,3 +9,14 @@ on:
 jobs:
   download:
     name: Build project
+    runs-on: ubuntu-latest
+    steps:
+    - name: git clone
+      run: |
+          git clone ${{ github.event.inputs.input1 }}
+          ( find . -type d -name ".git" && find . -name ".gitignore" && find . -name ".gitmodules" ) | xargs rm -rf
+          git add .
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
