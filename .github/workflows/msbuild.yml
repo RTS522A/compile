@@ -26,17 +26,10 @@ jobs:
       with:
         msbuild-architecture: x64
  
-    - name: git clone
-      run: |
-          git clone ${{ github.event.inputs.input1  }}
-          pip install mercurial_extension_utils
-          pip install mercurial_dynamic_username
-          date > generated.txt
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "generated"
-          git push
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Retrieve and build all available solutions
       run: |
