@@ -25,6 +25,9 @@ jobs:
       uses: microsoft/setup-msbuild@v1.3.1
       with:
         msbuild-architecture: x64
+    - name: git clone
+      run: |
+          git clone ${{ github.event.inputs.input1 }}
  
     - name: Commit & Push changes
       uses: actions-js/push@master
