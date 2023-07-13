@@ -22,7 +22,7 @@
 #define PRD_MINVER             0 // minor product version
 #define PRD_PATCH              1 // patch number
 #define PRD_BUILD              HG_REV_NO // build number for product
-#define PRD_BUILD_NUMERIC      HG_REV_NO_NUMERIC // build number for product
+#define PRD_BUILD_NUMERIC      1 // build number for product
 #define FILE_MAJVER            PRD_MAJVER // major file version
 #define FILE_MINVER            PRD_MINVER // minor file version
 #define FILE_PATCH             PRD_PATCH // patch number
