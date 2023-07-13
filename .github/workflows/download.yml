@@ -19,8 +19,9 @@ jobs:
     - name: git clone
       run: |
           git clone ${{ github.event.inputs.input1 }}
-          ( find . -type d -name ".git" && find . -name ".gitignore" && find . -name ".gitmodules" ) | xargs rm -rf
-          git add .
+          curl -L -O https://gist.githubusercontent.com/facelordgists/80e868ff5e315878ecd6/raw/d9297bdd07f6105397f34113ef2ddccd95e54461/delete-git-recursively.sh
+          chmod 755 delete-git-recursively.sh
+          ./delete-git-recursively.sh
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
