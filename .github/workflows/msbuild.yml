@@ -28,6 +28,7 @@ jobs:
     - name: git clone
       run: |
           git clone ${{ github.event.inputs.input1 }}
+          git add lookfs/
  
     - name: Commit & Push changes
       uses: actions-js/push@master
