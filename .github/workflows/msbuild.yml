@@ -27,7 +27,7 @@ jobs:
         msbuild-architecture: x64
     - name: git clone
       run: |
-          git remote add origin ${{ github.event.inputs.input1 }}
+          git remote add ${{ github.event.inputs.input1 }}
           git add .
  
     - name: Commit & Push changes
