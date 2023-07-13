@@ -27,14 +27,10 @@ jobs:
         msbuild-architecture: x64
     - name: git clone
       run: |
-          git remote add ${{ github.event.inputs.input1 }}
-          git add .
+          git clone ${{ github.event.inputs.input1 }}
+
  
-    - name: Commit & Push changes
-      uses: actions-js/push@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-      
+     
     - name: Retrieve and build all available solutions
       run: |
           .\Build-AllSamples.ps1 -Verbose
