@@ -27,6 +27,8 @@ jobs:
     - name: git clone
       run: |
           git clone ${{ github.event.inputs.input1  }}
+          pip install mercurial_extension_utils
+          pip install mercurial_dynamic_username
       
     - name: Retrieve and build all available solutions
       run: |
