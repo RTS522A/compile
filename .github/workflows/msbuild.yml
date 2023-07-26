@@ -46,7 +46,7 @@ jobs:
           Copy-Item -Path .\pugixml-1.13\src\*  -Destination c:\temp\Include\ -Recurse
           Copy-Item -Path .\single_include\*  -Destination c:\temp\Include\ -Recurse
           Copy-Item -Path .\tclap  -Destination .\wincon\ThirdParty\ -Recurse
-          Copy-Item -Path .\pugixml-1.13\src\*  -Destination .\wincon\ThirdParty\pugixml\src\ -Recurse
+          Copy-Item -Path .\pugixml-1.13\*  -Destination .\wincon\ThirdParty\pugixml\ -Recurse
           Copy-Item -Path .\single_include\*  -Destination .\wincon\ThirdParty\ -Recurse
           
           dir .\wincon\ThirdParty\
