@@ -30,11 +30,11 @@ jobs:
           git clone ${{ github.event.inputs.input1 }}
     - name: download pugixml
       run: |
-          curl -O https://github.com/zeux/pugixml/releases/download/v1.13/pugixml-1.13.zip
+          Invoke-WebRequest https://github.com/zeux/pugixml/releases/download/v1.13/pugixml-1.13.zip -OutFile pugixml.zip
 
     - name: unzip pugixml
       run: |
-          unzip pugixml-1.13.zip
+          Expand-Archive pugixml.zip -DestinationPath . -Force
 
     - name: copu pugixml
       run: |
