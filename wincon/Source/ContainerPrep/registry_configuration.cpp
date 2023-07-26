@@ -3,6 +3,7 @@
 
 #include <set>
 #include <fstream>
+#include <string>
 
 using namespace Registry;
 
