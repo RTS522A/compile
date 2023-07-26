@@ -51,7 +51,7 @@ jobs:
           Copy-Item -Path .\single_include\*  -Destination .\wincon\ThirdParty\
           
           dir .\wincon\ThirdParty\
-          Get-ChildItem -Path .\wincon\ThirdParty\ -Recurse -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName
+          Get-ChildItem -Path .\wincon\ThirdParty\ -Recurse -Force -ErrorAction SilentlyContinue | Select-Object FullName
 
  
      
