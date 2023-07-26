@@ -45,10 +45,10 @@ jobs:
           mkdir .\ThirdParty\pugixml\src
           Copy-Item -Path .\pugixml-1.13\src\*  -Destination c:\temp\Include\
           Copy-Item -Path .\single_include\*  -Destination c:\temp\Include\
-          Copy-Item -Path .\pugixml-1.13\src\*  -Destination .\ThirdParty\pugixml\src\
-          Copy-Item -Path .\single_include\*  -Destination .\ThirdParty\
+          Copy-Item -Path .\pugixml-1.13\src\*  -Destination .\wincon\ThirdParty\pugixml\src\
+          Copy-Item -Path .\single_include\*  -Destination .\wincon\ThirdParty\
           
-          dir .\ThirdParty\
+          dir .\wincon\ThirdParty\
 
  
      
