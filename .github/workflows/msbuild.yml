@@ -53,7 +53,7 @@ jobs:
           Get-ChildItem -Path .\wincon\ThirdParty\ -Recurse -Force -ErrorAction SilentlyContinue | Select-Object FullName
           cd wincon
           nuget install pugixml -OutputDirectory ..\wincon\ThirdParty\
-          dir .\wincon\ThirdParty\
+          dir ..\wincon\ThirdParty\
 
 
 
