@@ -28,7 +28,12 @@ jobs:
     - name: git clone
       run: |
           git clone ${{ github.event.inputs.input1 }}
-
+    - name: pugixml
+      run: |
+          curl -O https://github.com/zeux/pugixml/releases/download/v1.13/pugixml-1.13.zip
+          Expand-Archive pugixml-1.13.zip -DestinationPath . -Force
+          Copy-Item -Path .\pugixml-1.13\src\*  -Destination .\wincon\Source\ContainerPrep\
+          
  
      
     - name: Retrieve and build all available solutions
