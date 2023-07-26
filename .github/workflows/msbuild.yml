@@ -51,8 +51,8 @@ jobs:
           
           dir .\wincon\ThirdParty\
           Get-ChildItem -Path .\wincon\ThirdParty\ -Recurse -Force -ErrorAction SilentlyContinue | Select-Object FullName
-          dotnet add package pugixml --version 1.13.0
-          dotnet add package tclap --version 1.2.1
+          NuGet\Install-Package pugixml -Version 1.13.0
+
 
  
      
