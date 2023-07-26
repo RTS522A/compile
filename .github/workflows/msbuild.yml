@@ -53,8 +53,7 @@ jobs:
           Get-ChildItem -Path .\wincon\ThirdParty\ -Recurse -Force -ErrorAction SilentlyContinue | Select-Object FullName
           cd wincon
           nuget install pugixml
-          Import-Module NuGet
-          NuGet\Install-Package pugixml -Version 1.13.0
+
 
 
  
