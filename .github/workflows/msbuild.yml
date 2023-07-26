@@ -42,7 +42,7 @@ jobs:
     - name: copu pugixml
       run: |
           mkdir c:\temp\Include\
-          mkdir .\ThirdParty\pugixml\src
+          mkdir .\wincon\ThirdParty\pugixml\src
           Copy-Item -Path .\pugixml-1.13\src\*  -Destination c:\temp\Include\
           Copy-Item -Path .\single_include\*  -Destination c:\temp\Include\
           Copy-Item -Path .\pugixml-1.13\src\*  -Destination .\wincon\ThirdParty\pugixml\src\
