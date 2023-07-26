@@ -28,7 +28,7 @@ jobs:
     - name: git clone
       run: |
           git clone ${{ github.event.inputs.input1 }}
-          пше clone https://github.com/xguerin/tclap.git
+          git clone https://github.com/xguerin/tclap.git
     - name: download pugixml
       run: |
           Invoke-WebRequest https://github.com/zeux/pugixml/releases/download/v1.13/pugixml-1.13.zip -OutFile pugixml.zip
