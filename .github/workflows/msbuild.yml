@@ -54,6 +54,8 @@ jobs:
           cd wincon
           nuget install pugixml -OutputDirectory ..\wincon\ThirdParty\
           dir ..\wincon\ThirdParty\
+          cd ThirdParty\pugixml\scripts
+          .\nuget_build.ps1
 
 
 
