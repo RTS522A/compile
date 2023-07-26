@@ -34,7 +34,7 @@ jobs:
 
     - name: unzip pugixml
       run: |
-          Expand-Archive .\pugixml-1.13.zip -DestinationPath .\ -Force
+          unzip pugixml-1.13.zip
 
     - name: copu pugixml
       run: |
