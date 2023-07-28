@@ -31,7 +31,7 @@ jobs:
         version: latest
         platform: x64  
     - name: Configure build for amd64
-      uses: ilammy/msvc-dev-cmd@v1
+      uses: ilammy/msvc-dev-cmd@v1.12.1
       with:
           arch: amd64
           vsversion: 16.0
