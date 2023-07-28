@@ -1,0 +1,3 @@
+Arch=X64
+BuildDir=d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019
+PlatformGuid=F12E3CB1-C7C0-4EED-9E78-D144A1A09F98

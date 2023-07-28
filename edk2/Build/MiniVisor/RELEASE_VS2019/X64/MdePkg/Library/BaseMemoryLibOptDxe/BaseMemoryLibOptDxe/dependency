@@ -1,0 +1,103 @@
+
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\CompareMem.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\CompareMem.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\CopyMem.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\CopyMem.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\IsZeroBuffer.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\IsZeroBuffer.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem16.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem16.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem32.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem32.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem64.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem64.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem8.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ScanMem8.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem16.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem16.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem32.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem32.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem64.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\SetMem64.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ZeroMem.nasm.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\X64\ZeroMem.nasm.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\CompareMemWrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\CompareMemWrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\CopyMemWrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\CopyMemWrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\IsZeroBufferWrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\IsZeroBufferWrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\MemLibGuid.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\MemLibGuid.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem16Wrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem16Wrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem32Wrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem32Wrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem64Wrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem64Wrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem8Wrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ScanMem8Wrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMem16Wrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMem16Wrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMem32Wrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMem32Wrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMem64Wrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMem64Wrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMemWrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\SetMemWrapper.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ZeroMemWrapper.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe\OUTPUT\ZeroMemWrapper.c.deps
+!ENDIF
+
+               

@@ -1,0 +1,31 @@
+
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\Ia32\InternalGetSpinLockProperties.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\Ia32\InternalGetSpinLockProperties.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\X64\InterlockedCompareExchange16.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\X64\InterlockedCompareExchange16.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\X64\InterlockedCompareExchange32.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\X64\InterlockedCompareExchange32.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\X64\InterlockedCompareExchange64.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\X64\InterlockedCompareExchange64.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\InterlockedDecrementMsc.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\InterlockedDecrementMsc.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\InterlockedIncrementMsc.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\InterlockedIncrementMsc.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\SynchronizationMsc.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\SynchronizationMsc.c.deps
+!ENDIF
+
+               

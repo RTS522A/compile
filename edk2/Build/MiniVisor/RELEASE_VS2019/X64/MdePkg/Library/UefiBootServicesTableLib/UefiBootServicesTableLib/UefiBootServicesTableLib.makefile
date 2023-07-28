@@ -1,0 +1,1 @@
+d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\UefiBootServicesTableLib\UefiBootServicesTableLib\Makefile
