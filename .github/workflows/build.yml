@@ -35,23 +35,12 @@ jobs:
       with:
           arch: amd64
 
-    - name: precompile
-      run: |
-         cd edk2
-         edksetup.bat Rebuild
-      shell: cmd
       
-    - name: precheck
+    - name: build
       run: |
          exec.cmd
       shell: cmd
-    - name: build
-      run: |
-        cd edk2
-        .\edksetup.bat
-        echo "-------------------------------------------------"
-        build -w -a X64 -t VS2019 -b NOOPT -p MiniVisorPkg\Builds\Platform\EFI\MiniVisorPkg.dsc
-        dir /s MiniVisorDxe.efi
+
 
     - name: Commit & Push changes
       uses: actions-js/push@master
