@@ -18,6 +18,7 @@
 [Binaries.X64]
   PE32|MiniVisorDxe.efi
   DXE_DEPEX|MiniVisorDxe.depex
+  DISPOSABLE|MiniVisorDxe.pdb
 
 [PatchPcd.X64]
 
