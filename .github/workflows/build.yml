@@ -35,10 +35,11 @@ jobs:
       shell: cmd
     - name: build
       run: |
+        .\edksetup.bat
         echo "-------------------------------------------------"
         build -w -a X64 -t VS2022 -b NOOPT -p MiniVisorPkg\Builds\Platform\EFI\MiniVisorPkg.dsc
         dir /s MiniVisorDxe.efi
-      shell: cmd
+
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
