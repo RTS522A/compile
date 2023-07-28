@@ -30,7 +30,14 @@ jobs:
       with:
         version: latest
         platform: x64  
-        
+    - name: Configure build for amd64
+      uses: ilammy/msvc-dev-cmd@v1
+      with:
+          arch: amd64
+          vsversion: 16.0
+          run: |
+            exec.cmd
+          
     - name: precheck
       run: |
          exec.cmd
