@@ -1,0 +1,9 @@
+[Defines]
+  DEC_SPECIFICATION              = 1.27
+  PACKAGE_NAME                   = MiniVisorPkg
+  PACKAGE_GUID                   = 17B17324-C05D-4F94-BE73-46D4077E3E4C
+  PACKAGE_VERSION                = 1.00
+
+[Includes]
+  ../../../Sources
+  ../../../Sources/Platform/EFI
