@@ -1,0 +1,9 @@
+d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsicSev\OUTPUT\IoLib.obj: \
+"d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsicSev\DEBUG\AutoGen.h" \
+"d:\a\compile\compile\edk2\MdePkg\Include\Base.h" \
+"d:\a\compile\compile\edk2\MdePkg\Include\X64\ProcessorBind.h" \
+"d:\a\compile\compile\edk2\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsicInternal.h" \
+"d:\a\compile\compile\edk2\MdePkg\Include\Library/IoLib.h" \
+"d:\a\compile\compile\edk2\MdePkg\Include\Library/BaseLib.h" \
+"d:\a\compile\compile\edk2\MdePkg\Include\Library/DebugLib.h" \
+"d:\a\compile\compile\edk2\MdePkg\Include\Library/RegisterFilterLib.h"

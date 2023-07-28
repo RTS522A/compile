@@ -1,0 +1,27 @@
+
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\Acpi.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\Acpi.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\Console.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\Console.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiDriverModel.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiDriverModel.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiLib.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiLib.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiLibPrint.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiLibPrint.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiNotTiano.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiLib\UefiLib\OUTPUT\UefiNotTiano.c.deps
+!ENDIF
+
+               
