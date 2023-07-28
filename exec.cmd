@@ -1,5 +1,6 @@
 iasl.exe -v
-set NASM_PREFIX=C:\Users\runneradmin\nasm\
+set NASM_PREFIX="C:\Users\runneradmin\nasm\"
+set CLANG_BIN="C:\Program Files\LLVM\bin\"
 cd edk2
 call edksetup.bat
 echo "-------------------------------------------------"
