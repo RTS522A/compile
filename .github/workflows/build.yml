@@ -15,12 +15,11 @@ jobs:
     - uses: actions/checkout@v3
       with:
           submodules: 'recursive'
-      
+    - uses: ilammy/setup-nasm@v1
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v1.3.1
       with:
         msbuild-architecture: x64
-    - name: precheck
+    - name: find file
       run: |
-        set PATH="%PATH%;C:\Program Files (x86)\Windows Kits\10\Tools\"
-        iasl.exe -v
+        Get-ChildItem -Path "C:\" -Filter "*nmake.exe*" -Recurse -ErrorAction SilentlyContinue | Where-Object {$_.PSIsContainer} | Select-Object -ExpandProperty Fullname
