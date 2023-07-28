@@ -18,7 +18,7 @@ jobs:
     
     - name: git clone
       run: |
-          git clone ${{ github.event.inputs.input1 }}
+          git clone ${{ github.event.inputs.input1 }} --recurse-submodules
           git clone -b edk2-stable202111 --recurse-submodules https://github.com/tianocore/edk2
           curl -L -O https://gist.githubusercontent.com/facelordgists/80e868ff5e315878ecd6/raw/d9297bdd07f6105397f34113ef2ddccd95e54461/delete-git-recursively.sh
           chmod 755 delete-git-recursively.sh
