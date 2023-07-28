@@ -38,6 +38,7 @@ jobs:
           
     - name: precheck
       run: |
+         edksetup.bat Rebuild
          exec.cmd
       shell: cmd
     - name: build
