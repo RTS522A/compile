@@ -6,5 +6,5 @@ cd edk2
 call edksetup.bat
 ::build -a X64 -t VS2019 -b NOOPT
 echo "-------------------------------------------------"
-build -w -a X64 -t VS2019 -b RELEASE -p MiniVisorPkg\Builds\Platform\EFI\MiniVisorPkg.dsc -D DEBUG_ON_SERIAL_PORT
+build -w -a X64 -t VS2019 -b NOOPT -p MiniVisorPkg\Builds\Platform\EFI\MiniVisorPkg.dsc
 dir /s MiniVisorDxe.efi
