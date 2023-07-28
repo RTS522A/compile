@@ -1,4 +1,4 @@
-name: build
+name: dir
 on:
   workflow_dispatch:
 jobs:
