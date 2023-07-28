@@ -23,9 +23,11 @@ jobs:
     - name: add iasl to PATH
       run: |
           Add-Content $env:GITHUB_PATH "D:\a\compile\compile\iasl\"
+         
     - name: precheck
       run: |
          iasl.exe -v
+         set NASM_PREFIX=C:\Users\runneradmin\nasm\
          cd edk2
          edksetup.bat
          build -w -a X64 -t VS2019 -b NOOPT -p MiniVisorPkg\Builds\Platform\EFI\MiniVisorPkg.dsc
