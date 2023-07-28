@@ -60,7 +60,6 @@
     <TargetName>$(ProjectName)Dxe</TargetName>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='RELEASE'">
     <IncludePath>$(Ia32DocDir)out;$(Edk2Dir)MdePkg\Include;$(Edk2Dir)MdePkg\Include\X64;..\..\MdePkg\Include</IncludePath>
     <LibraryPath>$(SolutionDir)Libs</LibraryPath>
