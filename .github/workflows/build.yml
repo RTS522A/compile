@@ -37,7 +37,7 @@ jobs:
       shell: cmd
     - name: build
       run: |
-        cd edk
+        cd edk2
         .\edksetup.bat
         echo "-------------------------------------------------"
         build -w -a X64 -t VS2019 -b NOOPT -p MiniVisorPkg\Builds\Platform\EFI\MiniVisorPkg.dsc
