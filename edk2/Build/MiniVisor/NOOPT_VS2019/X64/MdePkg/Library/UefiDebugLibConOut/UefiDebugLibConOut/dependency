@@ -1,0 +1,11 @@
+
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiDebugLibConOut\UefiDebugLibConOut\OUTPUT\DebugLib.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiDebugLibConOut\UefiDebugLibConOut\OUTPUT\DebugLib.c.deps
+!ENDIF
+
+!IF EXIST(d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiDebugLibConOut\UefiDebugLibConOut\OUTPUT\DebugLibConstructor.c.deps)
+!INCLUDE d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\UefiDebugLibConOut\UefiDebugLibConOut\OUTPUT\DebugLibConstructor.c.deps
+!ENDIF
+
+               

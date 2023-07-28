@@ -1,0 +1,1 @@
+  d:\a\compile\compile\edk2\MdePkg\Library\BaseLib\X64\ReadMsr64.c d:\a\compile\compile\edk2\MdePkg\Library\BaseLib\X64\WriteMsr64.c d:\a\compile\compile\edk2\MdePkg\Library\BaseLib\X64\CpuBreakpoint.c d:\a\compile\compile\edk2\MdePkg\Library\BaseLib\X64\Non-existing.c
