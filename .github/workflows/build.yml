@@ -26,4 +26,12 @@ jobs:
     - name: precheck
       run: |
          iasl.exe -v
+         cd edk2
+         edksetup.bat Rebuild
       shell: cmd
+      
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: "MiniVisorPkg"
