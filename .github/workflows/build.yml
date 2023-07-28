@@ -22,7 +22,7 @@ jobs:
         msbuild-architecture: x64
     - name: precheck
       run: |
-        Get-ChildItem -Path "C:\Program Files (x86)\" -Filter "*ACPIVerify*" -Recurse | Where-Object {$_.PSIsContainer} | Select-Object -ExpandProperty Fullname
+        Get-ChildItem -Path "C:\" -Filter "*ACPIVerify*" -Recurse -ErrorAction SilentlyContinue | Where-Object {$_.PSIsContainer} | Select-Object -ExpandProperty Fullname
         set PATH="%PATH%;C:\Program Files (x86)\Windows Kits\10\Tools\x86\ACPIVerify\"
         dir "C:\Program Files (x86)\Windows Kits\10\Tools\x86\"
         iasl.exe -v
