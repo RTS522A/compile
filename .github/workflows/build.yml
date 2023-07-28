@@ -23,5 +23,5 @@ jobs:
     - name: precheck
       run: |
         set PATH="%PATH%;C:\Program Files (x86)\Windows Kits\10\Tools\x86\ACPIVerify\"
-        dir "C:\Program Files (x86)\Windows Kits\10\Tools\"
+        dir "C:\Program Files (x86)\Windows Kits\10\Tools\amd64\"
         iasl.exe -v
