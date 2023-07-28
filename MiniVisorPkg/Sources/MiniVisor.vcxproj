@@ -54,7 +54,7 @@
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='UEFI'">
-    <IncludePath>$(Ia32DocDir)out;$(Edk2Dir)MdePkg\Include;$(Edk2Dir)MdePkg\Include\X64</IncludePath>
+    <IncludePath>..\..\edk2\MdePkg\Include\X64;..\..\edk2\ShellPkg\Include;..\..\edk2\CryptoPkg\Include;..\..\edk2\MdePkg\Include;$(IncludePath);$(Ia32DocDir)out;$(Edk2Dir)MdePkg\Include;$(Edk2Dir)MdePkg\Include\X64</IncludePath>
     <LibraryPath>$(SolutionDir)Libs</LibraryPath>
     <TargetExt>.efi</TargetExt>
     <TargetName>$(ProjectName)Dxe</TargetName>
