@@ -22,7 +22,8 @@ jobs:
         msbuild-architecture: x64
     - name: precheck
       run: |
-        set PATH="%PATH%;C:\Program Files (x86)\Windows Kits\10\Tools\10.0.22621.0\x64\ACPIVerify"
-        dir "C:\Program Files (x86)\Windows Kits\10\Tools\10.0.22621.0\x64\ACPIVerify"
-        "C:\Program Files (x86)\Windows Kits\10\Tools\10.0.22621.0\x64\ACPIVerify\asl.exe" -v
+        set PATH="%PATH%;D:\a\compile\compile\iasl\"
+        dir "D:\a\compile\compile\iasl\"
+        "D:\a\compile\compile\iasl\iasl.exe" -v
+         iasl.exe -v
       shell: cmd
