@@ -1,7 +1,0 @@
-d:/a/compile/compile/edk2/Build/MiniVisor/RELEASE_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InternalGetSpinLockProperties.obj
-d:/a/compile/compile/edk2/Build/MiniVisor/RELEASE_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange64.obj
-d:/a/compile/compile/edk2/Build/MiniVisor/RELEASE_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange32.obj
-d:/a/compile/compile/edk2/Build/MiniVisor/RELEASE_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/X64/InterlockedCompareExchange16.obj
-d:/a/compile/compile/edk2/Build/MiniVisor/RELEASE_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedIncrementMsc.obj
-d:/a/compile/compile/edk2/Build/MiniVisor/RELEASE_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/InterlockedDecrementMsc.obj
-d:/a/compile/compile/edk2/Build/MiniVisor/RELEASE_VS2019/X64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/SynchronizationMsc.obj

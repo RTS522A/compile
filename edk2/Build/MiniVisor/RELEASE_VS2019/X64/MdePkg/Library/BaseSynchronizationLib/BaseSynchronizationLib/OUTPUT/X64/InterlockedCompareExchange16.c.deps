@@ -1,5 +1,0 @@
-d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\OUTPUT\X64\InterlockedCompareExchange16.obj: \
-"d:\a\compile\compile\edk2\Build\MiniVisor\RELEASE_VS2019\X64\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib\DEBUG\AutoGen.h" \
-"d:\a\compile\compile\edk2\MdePkg\Include\Base.h" \
-"d:\a\compile\compile\edk2\MdePkg\Include\X64\ProcessorBind.h" \
-"d:\a\compile\compile\edk2\MdePkg\Include\Library/PcdLib.h"

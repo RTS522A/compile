@@ -1,1 +1,0 @@
-  d:\a\compile\compile\edk2\MdePkg\Library\BasePrintLib\PrintLib.c d:\a\compile\compile\edk2\MdePkg\Library\BasePrintLib\PrintLibInternal.c

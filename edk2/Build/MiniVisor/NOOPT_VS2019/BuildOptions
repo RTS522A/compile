@@ -1,3 +1,0 @@
-gCommandLineDefines: {'ARCH': 'X64'}
-BuildOptionPcd: []
-Active Platform: d:\a\compile\compile\edk2\MiniVisorPkg\Builds\Platform\EFI\MiniVisorPkg.dsc

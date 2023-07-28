@@ -1,1 +1,0 @@
-  d:\a\compile\compile\edk2\MiniVisorPkg\Sources\Platform\EFI\EfiPlatform.c d:\a\compile\compile\edk2\MiniVisorPkg\Sources\Platform\EFI\EfiHostInitialization.c d:\a\compile\compile\edk2\MiniVisorPkg\Sources\Platform\EFI\EfiLogger.c d:\a\compile\compile\edk2\MiniVisorPkg\Sources\Platform\EFI\EfiBitmap.c

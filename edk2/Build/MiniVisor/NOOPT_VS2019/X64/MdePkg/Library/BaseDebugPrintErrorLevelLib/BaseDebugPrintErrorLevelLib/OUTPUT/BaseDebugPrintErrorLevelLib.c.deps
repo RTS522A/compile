@@ -1,6 +1,0 @@
-d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib\OUTPUT\BaseDebugPrintErrorLevelLib.obj: \
-"d:\a\compile\compile\edk2\Build\MiniVisor\NOOPT_VS2019\X64\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib\DEBUG\AutoGen.h" \
-"d:\a\compile\compile\edk2\MdePkg\Include\Base.h" \
-"d:\a\compile\compile\edk2\MdePkg\Include\X64\ProcessorBind.h" \
-"d:\a\compile\compile\edk2\MdePkg\Include\Library/PcdLib.h" \
-"d:\a\compile\compile\edk2\MdePkg\Include\Library/DebugPrintErrorLevelLib.h"
