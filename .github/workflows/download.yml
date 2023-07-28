@@ -1,11 +1,6 @@
 name: download
 on:
   workflow_dispatch:
-    inputs:
-      input1:
-        description: project url
-        required: true
-        type: string
 jobs:
   download:
     name: Build project
@@ -18,9 +13,10 @@ jobs:
     
     - name: git clone
       run: |
-          cd edk2
-          git clone ${{ github.event.inputs.input1 }} --recurse-submodules
-          cd MiniVisorPkg
+          cd edk2\BaseTools\Bin\
+          git clone https://github.com/tianocore/edk2-BaseTools-win32.git --recurse-submodules
+          ren edk2-BaseTools-win32 Win32
+          cd Win32
           curl -L -O https://gist.githubusercontent.com/facelordgists/80e868ff5e315878ecd6/raw/d9297bdd07f6105397f34113ef2ddccd95e54461/delete-git-recursively.sh
           chmod 755 delete-git-recursively.sh
           ./delete-git-recursively.sh
