@@ -35,7 +35,12 @@ jobs:
       with:
           arch: amd64
 
-          
+    - name: precompile
+      run: |
+         cd edk2
+         edksetup.bat Rebuild
+      shell: cmd
+      
     - name: precheck
       run: |
          exec.cmd
