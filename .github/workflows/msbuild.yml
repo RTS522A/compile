@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         configuration: [Release]
-        platform: [x64]
+        platform: [Any]
     runs-on: windows-2022
 
     steps:
