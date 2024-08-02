@@ -26,4 +26,6 @@ Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\packages\Microsof
 Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3"
 Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3"
 Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\..\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3"
+Move-Item "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\..\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3\include\wil\" "D:\a\compile\compile\WMIExplorer\wil\"
 dir "D:\a\compile\compile\WMIExplorer\"
+dir "D:\a\compile\compile\WMIExplorer\wil\"
