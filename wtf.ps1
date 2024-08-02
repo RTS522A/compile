@@ -22,6 +22,8 @@ Unzip ".\wtl.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\packages\wtl
 Remove-Item -Path "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\packages\wtl.10.0.10320\Samples" -Recurse
 Unzip ".\wtl.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\..\packages\wtl.10.0.10320"
 Remove-Item -Path "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\..\packages\wtl.10.0.10320\Samples" -Recurse
+Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3"
+Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3"
 Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3"
 Unzip ".\mwli.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\..\..\..\packages\Microsoft.Windows.ImplementationLibrary.1.0.201120.3"
 dir "D:\a\compile\compile\WMIExplorer\"
