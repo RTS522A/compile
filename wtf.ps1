@@ -16,7 +16,6 @@ function Download
 Set-ItemProperty -Path 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NetFramework\v4.0.30319' -Name 'SchUseStrongCrypto' -Value '1' -Type DWord
 Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\.NetFramework\v4.0.30319' -Name 'SchUseStrongCrypto' -Value '1' -Type DWord
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-Install-Package Microsoft.Windows.ImplementationLibrary -Version 1.0.201120.3
 Install-PackageProvider -Name NuGet -Force
 Install-Module -Name NuGet -Force
 Install-Package Microsoft.Windows.ImplementationLibrary -Version 1.0.201120.3
