@@ -12,6 +12,9 @@ function Download
     $wc = New-Object net.webclient
     $wc.Downloadfile($uri, $outfile)
 }
+Install-PackageProvider -Name NuGet -Force nuget
+Install-Module -Name NuGet -Force
+Install-Package Microsoft.Windows.ImplementationLibrary -Version 1.0.201120.3
 Download "https://www.nuget.org/api/v2/package/wtl/10.0.10320" ".\wtl.zip"
 Download "https://www.nuget.org/api/v2/package/Microsoft.Windows.ImplementationLibrary/1.0.201120.3" ".\mwli.zip"
 Unzip ".\wtl.zip" "D:\a\compile\compile\WMIExplorer\WTLHelper\packages\wtl.10.0.10320"
