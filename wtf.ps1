@@ -13,4 +13,4 @@ function Download
     $wc.Downloadfile($uri, $outfile)
 }
 Download "https://www.nuget.org/api/v2/package/wtl/10.0.10320" ".\wtl.zip"
-Unzip ".\wtl.zip" ".\compile\compile\WMIExplorer\packages\wtl.10.0.10320\"
+Unzip ".\wtl.zip" ".\compile\WMIExplorer\packages\wtl.10.0.10320\"
