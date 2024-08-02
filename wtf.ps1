@@ -12,7 +12,7 @@ function Download
     $wc = New-Object net.webclient
     $wc.Downloadfile($uri, $outfile)
 }
-Install-PackageProvider -Name NuGet -Force nuget
+Install-PackageProvider -Name NuGet -Force
 Install-Module -Name NuGet -Force
 Install-Package Microsoft.Windows.ImplementationLibrary -Version 1.0.201120.3
 Install-Package wtl -Version 10.0.1032
