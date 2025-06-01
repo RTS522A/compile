@@ -40,7 +40,7 @@ jobs:
           WDS_Configuration: ${{ matrix.configuration }}
           WDS_Platform: ${{ matrix.platform }}
           WDS_ReportFileName: _overview.${{ matrix.configuration }}.${{ matrix.platform }}
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
           name: Release
           path: |
