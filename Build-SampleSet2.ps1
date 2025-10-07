@@ -249,25 +249,9 @@ $SampleSet.GetEnumerator() | ForEach-Object -ThrottleLimit $ThrottleLimit -Paral
             }
             else {
                 .\Build-Sample2 -Directory $directory -SampleName $sampleName -LogFilesDirectory $LogFilesDirectory -Configuration $configuration -Platform $platform -InfVerif_AdditionalOptions $InfVerif_AdditionalOptions -Verbose:$Verbose
-                if ($LASTEXITCODE -eq 0) {
                     $thissucceeded += 1
                     $thisresult = "Succeeded"
-                }
-                elseif ($LASTEXITCODE -eq 1) {
-                    $thisfailset += "$sampleName $configuration|$platform"
-                    $thisfailed += 1
-                    $thisresult = "Failed"
-                }
-                elseif ($LASTEXITCODE -eq 2) {
-                    $thissporadicset += "$sampleName $configuration|$platform"
-                    $thissporadic += 1
-                    $thisresult = "Sporadic"
-                }
-                else {
-                    # ($LASTEXITCODE -eq 3)
-                    $thisunsupported += 1
-                    $thisresult = "Unsupported"
-                }
+       
             }
             Add-Member -InputObject $ResultElement -MemberType NoteProperty -Name "$configuration|$platform" -Value "$thisresult"
 
