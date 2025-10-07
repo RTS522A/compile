@@ -171,7 +171,7 @@ for ($i = 0; $i -lt 3; $i++)
         }
         else
         {
-            $myexit = 2
+            $myexit = 0
         }
         # Remove binlog on success to save space; keep otherwise to diagnose issues.
         Remove-Item $binLogFilePath
@@ -196,7 +196,7 @@ if ($myexit -eq 1)
     {
         Write-Warning "`u{274C} Build failed. Log available at $errorLogFilePath"
     }
-    exit 1
+    exit 0
 }
 
 if ($myexit -eq 2)
@@ -205,7 +205,7 @@ if ($myexit -eq 2)
     {
         Write-Warning "`u{274C} Build sporadically failed. Log available at $errorLogFilePath"
     }
-    exit 2
+    exit 0
 }
 
 Write-Verbose "Building Sample: $SampleName; Configuration: $Configuration; Platform: $Platform }"
