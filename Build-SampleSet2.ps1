@@ -248,7 +248,7 @@ $SampleSet.GetEnumerator() | ForEach-Object -ThrottleLimit $ThrottleLimit -Paral
                 $thisresult = "Excluded"
             }
             else {
-                .\Build-Sample -Directory $directory -SampleName $sampleName -LogFilesDirectory $LogFilesDirectory -Configuration $configuration -Platform $platform -InfVerif_AdditionalOptions $InfVerif_AdditionalOptions -Verbose:$Verbose
+                .\Build-Sample2 -Directory $directory -SampleName $sampleName -LogFilesDirectory $LogFilesDirectory -Configuration $configuration -Platform $platform -InfVerif_AdditionalOptions $InfVerif_AdditionalOptions -Verbose:$Verbose
                 if ($LASTEXITCODE -eq 0) {
                     $thissucceeded += 1
                     $thisresult = "Succeeded"
