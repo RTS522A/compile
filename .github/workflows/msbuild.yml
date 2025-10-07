@@ -27,9 +27,10 @@ jobs:
         msbuild-architecture: x64
     - name: git clone
       run: |
-          git clone ${{ github.event.inputs.input1 }}
+          git clone --recurse-submodules ${{ github.event.inputs.input1 }}
 
-
+    - name: Install Nuget Packages
+      run: nuget restore .\packages.config -PackagesDirectory .\packages\
  
      
     - name: Retrieve and build all available solutions
