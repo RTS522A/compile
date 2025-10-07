@@ -36,7 +36,7 @@ jobs:
     - name: Retrieve and build all available solutions
       run: |
 
-          .\Build-AllSamples.ps1 -Verbose
+          .\Build-AllSamples2.ps1 -Verbose
       env:
           WDS_Configuration: ${{ matrix.configuration }}
           WDS_Platform: ${{ matrix.platform }}
