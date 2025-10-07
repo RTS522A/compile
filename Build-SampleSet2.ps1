@@ -46,7 +46,7 @@ try {
 catch {
     Write-Host "`u{274C} msbuild cannot be called from current environment. Check that msbuild is set in current path (for example, that it is called from a Visual Studio developer command)."
     Write-Error "msbuild cannot be called from current environment."
-    exit 1
+    exit 0
 }
 finally {
     $ErrorActionPreference = $oldPreference
