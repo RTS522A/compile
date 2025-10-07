@@ -161,8 +161,7 @@ for ($i = 0; $i -lt 3; $i++)
         Get-ChildItem -path $Directory -Recurse -Include x64 | Remove-Item -Recurse
         Get-ChildItem -path $Directory -Recurse -Include arm64 | Remove-Item -Recurse
     }
-    if ($LASTEXITCODE -eq 0)
-    {
+
         # We succeeded building. 
         # If it was at a later attempt, let the caller know with a different exit code.
         if ($i -eq 0)
@@ -176,18 +175,7 @@ for ($i = 0; $i -lt 3; $i++)
         # Remove binlog on success to save space; keep otherwise to diagnose issues.
         Remove-Item $binLogFilePath
         break;
-    }
-    else
-    {
-        # We failed building. 
-        # Let us sleep for a bit.
-        # Then let the while loop do its thing and re-run.
-        Start-Sleep 1
-        if ($Verbose)
-        {
-            Write-Warning "`u{274C} Build failed. Retrying to see if sporadic..."
-        }
-    }
+
 }
 
 if ($myexit -eq 1)
